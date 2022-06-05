@@ -4,7 +4,7 @@ var app = new Vue({
     scanner: null,
     activeCameraId: null,
     cameras: [],
-    scans: [],
+    scans: []
   },
   mounted: function () {
     var self = this;
